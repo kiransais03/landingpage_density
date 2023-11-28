@@ -4,7 +4,7 @@ const IndexPage = () => {
 
   return (
     <div>
-      
+      Website will be updated.Working on it.
     </div>
   )
 }
