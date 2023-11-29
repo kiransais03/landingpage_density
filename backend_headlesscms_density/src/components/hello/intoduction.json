@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_hello_intoductions",
+  "info": {
+    "displayName": "Intoduction",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "k2ba": {
+      "type": "json"
+    }
+  }
+}
