@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Statsdiv = styled.div`
 display:flex;
 justify-content:center;
+margin:3rem;
 `;
 
 const Numbersdiv = styled.div`

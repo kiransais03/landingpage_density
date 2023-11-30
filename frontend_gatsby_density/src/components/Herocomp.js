@@ -5,6 +5,7 @@ import styled from "styled-components";
 import phoneimg1 from "../images/iPhone 14 Pro Space Black Mockup label.png";
 import phoneimg2 from "../images/iPhone 14 Pro Space Black Mockup label (1).png";
 import phoneimg3 from "../images/iPhone 14 Pro Space Black Mockup label (2).png";
+import {Button} from "../Styledcomponents";
 
 const Navbar = styled.div`
 display :flex;
@@ -29,14 +30,6 @@ align-items:center;
 justify-content: space around;
 column-gap:10px;
 `
-
-const Button = styled.div`
-background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
-padding: 10px 20px;
-font-size:1rem;
-border-radius:8px;
-color:black;
-font-weight:600;`
 
 const Pagedata = styled.div`
 display:flex;
@@ -83,7 +76,7 @@ const Component1 = () => {
       </Navbar>
     <Pagedata>
         <Heading>
-            It's time to trade,the <span style={{color: "rgba(212, 249, 56, 0.7)"}}>future.</span>
+            It's time to trade,the <span style={{color: "rgba(212, 249, 56, 2)"}}>future.</span>
         </Heading>
         <p style={{color:"rgba(231, 231, 234, 1)",}}>Trade BTC,ETH Future With 125xLeverage And Earn Rewards.</p>
         <Phoneimgesdiv>
