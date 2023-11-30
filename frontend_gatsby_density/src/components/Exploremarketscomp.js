@@ -22,7 +22,7 @@ function Exploremarketscomp() {
     <p style={{color: "rgba(231, 231, 234, 1)"}}>Search for your favourite coins and stay ahead of the market</p>
   </Tophead>
   <img src={exploremarketimg} alt='exploremarket'/>
-  <Button style={{width:"10%"}}>
+  <Button style={{width:"14%",textAlign:"center"}}>
     EXPLORE MARKETS
   </Button>
   </Exploremarketdiv>

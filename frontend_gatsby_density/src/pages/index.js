@@ -6,6 +6,7 @@ import Statscomp from "../components/Statscomp";
 import Imageslides from "../components/Imageslides";
 import Trademorecomp from "../components/Trademorecomp";
 import Exploremarketscomp from "../components/Exploremarketscomp";
+import Unlocknewcomp from "../components/Unlocknewcomp";
 
 
 const IndexPage = () => {
@@ -17,6 +18,7 @@ const IndexPage = () => {
       <Imageslides/>
       <Trademorecomp/>
       <Exploremarketscomp/>
+      <Unlocknewcomp/>
      <h3 style={{textAlign:"center"}}>Apologies,Website will be updated.Working on it.</h3> 
     </div>
   )

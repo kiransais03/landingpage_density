@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Heading = styled.div`
 font-size:4rem;
 font-weight:700;
+text-align:center;
 `;
 
 export const Tophead = styled.div`

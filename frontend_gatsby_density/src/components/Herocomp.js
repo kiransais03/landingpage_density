@@ -5,7 +5,7 @@ import styled from "styled-components";
 import phoneimg1 from "../images/iPhone 14 Pro Space Black Mockup label.png";
 import phoneimg2 from "../images/iPhone 14 Pro Space Black Mockup label (1).png";
 import phoneimg3 from "../images/iPhone 14 Pro Space Black Mockup label (2).png";
-import {Button} from "../Styledcomponents";
+import {Button,Heading} from "../Styledcomponents";
 
 const Navbar = styled.div`
 display :flex;
@@ -37,12 +37,7 @@ align-items:center;
 flex-direction:column;
 `;
 
-const Heading = styled.h1`
-font-weight:700;
-font-size:5rem;
-width:50%;
-margin:0 auto;
-`;
+
 
 const Phoneimgesdiv = styled.div`
 display : flex;
@@ -75,7 +70,7 @@ const Component1 = () => {
         </Linksdiv>
       </Navbar>
     <Pagedata>
-        <Heading>
+        <Heading style={{width:"50%"}}>
             It's time to trade,the <span style={{color: "rgba(212, 249, 56, 2)"}}>future.</span>
         </Heading>
         <p style={{color:"rgba(231, 231, 234, 1)",}}>Trade BTC,ETH Future With 125xLeverage And Earn Rewards.</p>
