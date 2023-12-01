@@ -19,3 +19,9 @@ font-size:1rem;
 border-radius:8px;
 color:black;
 font-weight:600;`
+
+
+export const Heading3 = styled.div`
+font-size:2rem;
+font-weight:600;
+`;

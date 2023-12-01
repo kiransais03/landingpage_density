@@ -5,7 +5,7 @@ import density from "../images/density.png";
 import styled from "styled-components";
 import backg from "../images/backg.png";
 import Texture from "../images/Texture.png";
-import {Heading,Tophead} from "../Styledcomponents";
+import {Heading,Tophead,Heading3} from "../Styledcomponents";
 
 
 const Trademorediv = styled.div`
@@ -38,10 +38,6 @@ img {
 
 `;
 
-const Heading3 = styled.div`
-font-size:2rem;
-font-weight:600;
-`;
 
 const Para = styled.p`
 color:rgba(255, 255, 255, 0.4);
